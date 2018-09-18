@@ -6,16 +6,13 @@
     printf("enter the number");
     scanf("%d",&n);
     printf(" the series");
-
-
-    for(i=0;i<=n;i++)
-
-    {
-
-     printf("%d",a);
+   for(i=0;i<=n;i++)
+   {
        c=a+b;
+        printf("%d",c);
         a=b;
         b=c;
 
     }
+    return 0;
 }
